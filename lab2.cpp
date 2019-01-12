@@ -34,6 +34,8 @@ class circle
          head=NULL;
          tail=NULL;
      }
+     
+     
      //the member function to insert elements and their value
      void elemadd(int value)
      {
@@ -54,6 +56,8 @@ class circle
          tail=bleh;
 
      }
+     
+     
      //the function to add the elements wherever you want
      void addwhere(int pos, int value, int i=1)
      {
@@ -88,6 +92,8 @@ class circle
              cout<<" list doesnt have that many elements "<<endl;
          }
      }
+     
+     
      //display the elements of the list
      void display()
      {
@@ -102,6 +108,7 @@ class circle
          cout<<endl;
      }
 
+     
      //the function for the deletion of the last element
      void lasttrasher()
      {
